@@ -1,0 +1,27 @@
+
+span.name {
+  color:  ##ff4d5a;
+  font-weight:  bold;
+  font-size:  20px
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    width: 1000px;
+}
+
+p {
+    text-align: left;
+    font-size: 1.4em;
+    color: white;
+    width: 1000px;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size:  14px;
+    color: #555;
+    background-color: #383434;
+}
