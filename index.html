@@ -1,69 +1,159 @@
 <!DOCTYPE html>
 <html>
+  <!-- LINKS -->
+  <head>
+    <title>JORDAN JOHNSON</title>
+    <link rel="icon" type="image/x-icon" href="icon/icon_JJ.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
 
-    <!-- Webpage header and setup -->
-    <head>
-        <title>JORDAN JOHNSON</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+  <!-- BODY AREA -->
+  <body>
+    <!-- NAVIGATION BAR // HEADER -->
+    <header class="navbar">
+      <div class="navbar-left">
+        <a href="#" class="logo">JJ</a>
+      </div>
+      <nav class="navbar-center">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="navbar-right">
+        <a href="https://linkedin.com/in/jordankj" target="_blank"><img src="icon/icon_linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/jmoneyball" target="_blank"><img src="icon/icon_github.png" alt="GitHub"></a>
+        <a href="documents/cv_JordanJohnson.pdf" target="_blank"><img src="icon/icon_download.png" alt="Download"></a>
+      </div>
+    </header>
 
-    <!-- Webpage body content -->
-    <body>
-        <script>src="script.js"></script>
+    <!-- NAME AND PHOTO -->
+    <div class="typing-container">
+      <span class="typed-name" id="typed-name"></span>
+      <span class="cursor">|</span>
+    </div>
+    <div class="profile-pic-container">
+      <img src="icon/icon_selfie.jpg" alt="Profile Picture" class="circle-image">
+    </div>
 
-        <h1> Hello, I'm <span class="name">Jordan</span>.</h1>
-        <br><br>
-
-        <p><u>About</u></p>
-        <p> Highly motivated professional with more than six years of experience in project management, consulting, and technical support in fast-paced
-            environments, all while concurrently pursuing a college degree. Proven track record of driving and executing strategic initiatives to enhance hospital
-            throughput and optimize utilization.
+    <!-- ABOUT SECTION -->
+    <div class="section" id="about">
+      <div>
+        <h1>About Me</h1>
+        <p>
+          I'm a highly motivated young professional with over 6 years of experience in project management, consulting, and technical support.
+          <br><br>
+          I'm also a current CS student who enjoys analyzing data, driving twisty backroads, and exploring creative projects.
+          <br><br>
+          In my free time, I try to enjoy a variety of hobbies:
         </p>
-        <br>
+        <div class="hobby-badges">
+          <span class="badge">Driving</span>
+          <span class="badge">Video Games</span>
+          <span class="badge">Family & Friends</span>
+          <span class="badge">3D Printing</span>
+          <span class="badge">Skateboarding</span>
+          <span class="badge">Hiking</span>
+          <span class="badge">Music</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div class="section" id="skills">
+      <div>
+        <h1>Skills</h1>
+        <p>
+          Below are some of the tools that I am most familiar with and that I enjoy learning:
+        </p>
+        <div class="icon-grid">
+          <div class="icon-item">
+            <img src="icon/icon_c++.png" alt="C++">
+            <div class="icon-label">C++</div>
+          </div>
+          <div class="icon-item">
+            <img src="icon/icon_java.png" alt="Java">
+            <div class="icon-label">Java</div>
+          </div>
+          <div class="icon-item">
+            <img src="icon/icon_github_black.png" alt="GitHub">
+            <div class="icon-label">GitHub</div>
+          </div>
+          <div class="icon-item">
+            <img src="icon/icon_html5.png" alt="HTML5">
+            <div class="icon-label">HTML5</div>
+          </div>
+          <div class="icon-item">
+            <img src="icon/icon_css.png" alt="CSS">
+            <div class="icon-label">CSS</div>
+          </div>
+          <div class="icon-item">
+            <img src="icon/icon_javascript.png" alt="JavaScript">
+            <div class="icon-label">JavaScript</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div class="section" id="projects">
+      <div>
+        <h1>Projects</h1>
+        <p>Here are some of the personal projects that I am most proud of:</p>
+        <div class="projects-grid">
+          <div class="project-card no-image">
+            <div class="project-info">
+              <h2>Personal Portfolio Website</h2>
+              <p>This is the website you're currently viewing! It showcases my latest projects and information. Built with HTML, CSS, and JavaScript.</p>
+              <a href="https://github.com/jmoneyball/cs311.github.io" target="_blank" class="button">View My Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <h2>MaintenanceMind</h2>
+              <img src="icon/icon_maintenancemind.png" alt="MaintenanceMind" class="project-image">
+              <p>Website for users to enter and store maintenance records for multiple vehicles.  Built using Java, Javascript, HTML, CSS, and MySQL.</p>
+              <a href="https://github.com/jmoneyball/cs401.github.io" target="_blank" class="button">View My Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-        <p><u> To Do List </u></p>
-        <p> - CV</p>
-        <p> - Projects</p>
-        <br>
+    <!-- CONTACT SECTION -->
+    <div class="section" id="contact">
+      <div>
+        <h1>Contact</h1>
+        <p>Email: jrdn.kndy@gmail.com</p>
+        <p>Phone: (925) 667-7427</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/jordankj" target="_blank">linkedin.com/in/jordankj</a></p>
 
-        <p> - Contact Info</p>
-        <p> -- (925) 667-7427</p>
-        <p> -- jrdn.kndy@gmail.com</p>
-        <br>
-
-
-        <p> - Socials</p>
-        <a href="https://linkedin.com/in/jordankj"> -- LinkedIn</a><br>
-        <a href="https://github.com/jmoneyball"> -- GitHub</a><br>
-
-        <p> - Skills</p>
-        <p> -- C++ </p>
-        <p> -- HTML</p>
-        <p> -- Java</p>
-        <p> -- Javascript</p>
-        <p> -- GitHub</p>
-        <p> -- HTML</p>
-        <br>
-
-        <p> - Icons</p>
-        <p> -- C++ <img src="icon_c.png" alt="C++" style="width:50px;height:50px"> </p>
-        <p> -- HTML</p>
-        <p> -- Java</p>
-        <p> -- Javascript</p>
-        <p> -- GitHub</p>
-        <p> -- HTML</p>
-        <p> -- Email</p>
-        <p> -- Phone</p>
-        <p> -- LinkedIn <img src="icon_linkedin.png" alt="LinkedIn" style="width:50px;height:50px"> </p>
-        <br>
+      </div>
+    </div>
 
 
+    <!-- SCRIPTS -->
+    <script>
+      const text = "Jordan Johnson";
+      const typedName = document.getElementById("typed-name");
+      let i = 0;
+      function typeOnce() {
+        if (i < text.length) {
+          typedName.innerText += text.charAt(i);
+          i++;
+          setTimeout(typeOnce, 120);
+        }
+      }
+      window.onload = typeOnce;
+    </script>
 
+  </body>
 
+  <!-- FOOTER AREA -->
+  <footer>
+    <h2>JORDAN JOHNSON ©2025</h2>
+  </footer>
 
-        <p style="font-size:75%;"> JORDAN JOHNSON ©2025</p>
-
-    </body>
 </html>
